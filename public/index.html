@@ -134,7 +134,7 @@
 
             // 1. Register UV Service Worker
             try {
-                await navigator.serviceWorker.register('/uv-sw.js', {
+                await navigator.serviceWorker.register('/uv/uv-sw.js', {
                     scope: __uv$config.prefix
                 });
             } catch (err) {
